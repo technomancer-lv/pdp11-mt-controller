@@ -1,0 +1,1 @@
+1. SEL outputs are single decoded bits, not binary.
