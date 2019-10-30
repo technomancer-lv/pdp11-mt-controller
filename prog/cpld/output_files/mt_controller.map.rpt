@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mt_controller
-Fri Oct 25 17:50:59 2019
+Tue Oct 29 20:12:38 2019
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +-----------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Fri Oct 25 17:50:59 2019           ;
+; Analysis & Synthesis Status ; Successful - Tue Oct 29 20:12:38 2019           ;
 ; Quartus II 64-Bit Version   ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name               ; mt_controller                                   ;
 ; Top-level Entity Name       ; mt_controller                                   ;
 ; Family                      ; MAX II                                          ;
-; Total logic elements        ; 1                                               ;
-; Total pins                  ; 3                                               ;
+; Total logic elements        ; 4                                               ;
+; Total pins                  ; 6                                               ;
 ; Total virtual pins          ; 0                                               ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                                   ;
 +-----------------------------+-------------------------------------------------+
@@ -150,20 +150,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 1     ;
-;     -- Combinational with no register       ; 1     ;
+; Total logic elements                        ; 4     ;
+;     -- Combinational with no register       ; 4     ;
 ;     -- Register only                        ; 0     ;
 ;     -- Combinational with a register        ; 0     ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 0     ;
 ;     -- 3 input functions                    ; 0     ;
-;     -- 2 input functions                    ; 1     ;
+;     -- 2 input functions                    ; 4     ;
 ;     -- 1 input functions                    ; 0     ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 1     ;
+;     -- normal mode                          ; 4     ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -171,11 +171,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- asynchronous clear/load mode         ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 0     ;
-; I/O pins                                    ; 3     ;
-; Maximum fan-out node                        ; inst  ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 3     ;
-; Average fan-out                             ; 0.75  ;
+; I/O pins                                    ; 6     ;
+; Maximum fan-out node                        ; SV[1] ;
+; Maximum fan-out                             ; 4     ;
+; Total fan-out                               ; 12    ;
+; Average fan-out                             ; 1.20  ;
 +---------------------------------------------+-------+
 
 
@@ -184,7 +184,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
-; |mt_controller             ; 1 (1)       ; 0            ; 0          ; 3    ; 0            ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mt_controller      ; work         ;
+; |mt_controller             ; 4 (4)       ; 0            ; 0          ; 6    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |mt_controller      ; work         ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -210,20 +210,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Oct 25 17:50:56 2019
+    Info: Processing started: Tue Oct 29 20:12:36 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mt_controller -c mt_controller
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file mt_controller.bdf
     Info (12023): Found entity 1: mt_controller
+Info (12021): Found 1 design units, including 1 entities, in source file address_decode_and_latch.bdf
+    Info (12023): Found entity 1: address_decode_and_latch
 Info (12127): Elaborating entity "mt_controller" for the top level hierarchy
-Info (21057): Implemented 4 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 10 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 1 logic cells
+    Info (21059): Implemented 4 output pins
+    Info (21061): Implemented 4 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 419 megabytes
-    Info: Processing ended: Fri Oct 25 17:50:59 2019
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Tue Oct 29 20:12:38 2019
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 
