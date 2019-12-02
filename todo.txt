@@ -1,0 +1,12 @@
+Swap most likely too small CPLD to small Cyclone FPGA devboard
+Test if Quartus supports Cyclone IV
+Make new board design based on existing
+  Draw devboard as component
+  Put it on board
+  Connect all CPLD signals to FPGA board
+  Remove CPLD and unnecessary components
+  Reroute all signals to FPGA board
+  Add FT245 for debug purposes
+  
+Test if Qbus drivers fits on board
+Do all other todo steps marked in pcb file
