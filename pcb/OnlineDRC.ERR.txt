@@ -1,3 +1,7 @@
+P-CAD Online DRC Error Log                                  mt-controller-prototype_c-ii.pcb
+
+======================================================================
+
 OnlineDRC.ERR.txt:
 
 NETLIST VIOLATIONS:
@@ -17,3 +21,46 @@ WIDTH VIOLATIONS:
 
 0 warning(s) detected.
 0 error(s) detected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+11-Sep-20  09:16                                            Page    1
+
