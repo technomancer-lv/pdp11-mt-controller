@@ -18,4 +18,4 @@ Maintenance panel mockup (for fun)\
 Possibly a STM32 MCU for FPGA configuration\
 Possibly an USB interface for tape imaging directly to PC\
 Simple firmware upgrade over USB od even from RT-11 over Qbus (for fun)\
-Possibly a small run of boards if anyone will be interested \
+Possibly a small run of boards if anyone will be interested 
