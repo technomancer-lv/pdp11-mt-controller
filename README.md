@@ -9,7 +9,7 @@ DMA\
 Tape drive control and errors\
 Data path from computer to tape drive (write logic)\
 Data path from tape drive to computer (read logic)\
-Proper overall testing\
+Proper overall testing
 
 On future:\
 Next revision board\
