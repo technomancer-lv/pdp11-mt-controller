@@ -2,3 +2,5 @@ ISV signal is not connected!
 URZ should be connected in some other place (46)
 AP2 pattern not so wide
 AP2 has metallised bottom
+Different set of modern connectors
+Maintenance panel!
