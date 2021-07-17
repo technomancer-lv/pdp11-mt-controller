@@ -1,2 +1,3 @@
 USZ signal is not really used for write control. So it will not be used in a logic design and will be left as inactive.
 Maybe all 74123 delays in design should be made edge triggered?
+Maybe every delay should have its own part?
