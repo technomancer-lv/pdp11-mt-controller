@@ -4,3 +4,4 @@ Maybe every delay should have its own part?
 50ms SDWN time - isn't it too much?
 BUS ERROR on setting a PWR CLR bit in MTC register
 MPCLR in TU10 are several inverters with same function
+TU10 motion control part might be made simpler because part of it is included in CM5300 drive functionality
