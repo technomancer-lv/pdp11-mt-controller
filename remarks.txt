@@ -2,3 +2,4 @@ USZ signal is not really used for write control. So it will not be used in a log
 Maybe all 74123 delays in design should be made edge triggered?
 Maybe every delay should have its own part?
 50ms SDWN time - isn't it too much?
+BUS ERROR on setting a PWR CLR bit in MTC register
