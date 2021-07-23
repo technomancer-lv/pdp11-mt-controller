@@ -19,3 +19,8 @@ Possibly a STM32 MCU for FPGA configuration\
 Possibly an USB interface for tape imaging directly to PC\
 Simple firmware upgrade over USB od even from RT-11 over Qbus (for fun)\
 Possibly a small run of boards if anyone will be interested 
+
+Special thanks:\
+bitsavers.org for providing all detailed documentation on TM11, TU10 and other DEC parts\
+members of phantom.sannata.org russian retrocomputing forum for helping with materials, documentation and various sugestions\
+members of robotrontechnik.de german forum for their archive of soviet block computer equipment documentation
