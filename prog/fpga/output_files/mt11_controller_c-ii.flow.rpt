@@ -1,5 +1,5 @@
 Flow report for mt11_controller_c-ii
-Wed Jul 07 18:13:58 2021
+Fri Jul 23 15:55:50 2021
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,18 +40,18 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Jul 07 18:13:55 2021           ;
+; Flow Status                        ; Successful - Fri Jul 23 15:55:47 2021           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mt11_controller_c-ii                            ;
 ; Top-level Entity Name              ; mt11_controller_c-ii                            ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F484I8                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 414 / 33,216 ( 1 % )                            ;
-;     Total combinational functions  ; 408 / 33,216 ( 1 % )                            ;
-;     Dedicated logic registers      ; 179 / 33,216 ( < 1 % )                          ;
-; Total registers                    ; 179                                             ;
-; Total pins                         ; 113 / 322 ( 35 % )                              ;
+; Total logic elements               ; 742 / 33,216 ( 2 % )                            ;
+;     Total combinational functions  ; 697 / 33,216 ( 2 % )                            ;
+;     Dedicated logic registers      ; 309 / 33,216 ( < 1 % )                          ;
+; Total registers                    ; 309                                             ;
+; Total pins                         ; 120 / 322 ( 37 % )                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 483,840 ( 0 % )                             ;
 ; Embedded Multiplier 9-bit elements ; 0 / 70 ( 0 % )                                  ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 07/07/2021 18:13:29  ;
+; Start date & time ; 07/23/2021 15:54:51  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; mt11_controller_c-ii ;
 +-------------------+----------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 61986966677115.162567080805332        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 61986966677115.162704489001032        ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --         ;
@@ -92,6 +92,18 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COMPARE                           ; --            ; --          ; --         ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
+; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
 ; IP_TOOL_VERSION                     ; 13.0                                  ; --            ; --          ; --         ;
@@ -142,6 +154,18 @@ applicable agreement for further details.
 ; MISC_FILE                           ; comp_m307_15us.cmp                    ; --            ; --          ; --         ;
 ; MISC_FILE                           ; tm11_count_4bit.bsf                   ; --            ; --          ; --         ;
 ; MISC_FILE                           ; tm11_count_4bit.cmp                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; output_files/comp_74123_5us.bsf       ; --            ; --          ; --         ;
+; MISC_FILE                           ; output_files/comp_74123_5us.cmp       ; --            ; --          ; --         ;
+; MISC_FILE                           ; count_74123_50ms.bsf                  ; --            ; --          ; --         ;
+; MISC_FILE                           ; count_74123_50ms.cmp                  ; --            ; --          ; --         ;
+; MISC_FILE                           ; output_files/comp_74123_50ms.bsf      ; --            ; --          ; --         ;
+; MISC_FILE                           ; output_files/comp_74123_50ms.cmp      ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/comp_74123_10us.bsf          ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/comp_74123_10us.cmp          ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/comp_74123_1us.bsf           ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/comp_74123_1us.cmp           ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/tu10_count_sdwn_timer.bsf    ; --            ; --          ; --         ;
+; MISC_FILE                           ; includes/tu10_count_sdwn_timer.cmp    ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top        ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top        ;
@@ -156,11 +180,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:08     ; 1.0                     ; 392 MB              ; 00:00:07                           ;
-; Fitter                    ; 00:00:13     ; 1.0                     ; 488 MB              ; 00:00:11                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 357 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 321 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:23                           ;
+; Analysis & Synthesis      ; 00:00:10     ; 1.0                     ; 409 MB              ; 00:00:09                           ;
+; Fitter                    ; 00:00:20     ; 1.0                     ; 490 MB              ; 00:00:16                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 361 MB              ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 326 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:36     ; --                      ; --                  ; 00:00:29                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

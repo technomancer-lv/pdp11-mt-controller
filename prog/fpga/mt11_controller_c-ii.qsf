@@ -132,11 +132,6 @@ set_location_assignment PIN_Y22 -to qbus_wtbt_out
 set_location_assignment PIN_W21 -to qbus_sync_out
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VHDL_FILE clk10khzdiv_test.vhd
-set_global_assignment -name SOURCE_FILE "db/mt11_controller_c-ii.cmp.rdb"
-set_global_assignment -name CDF_FILE output_files/Chain3.cdf
-set_global_assignment -name BDF_FILE "mt11_controller_c-ii.bdf"
-set_global_assignment -name SDC_FILE "mt11_controller_c-ii.sdc"
 set_location_assignment PIN_B4 -to "mt-sv[0]"
 set_location_assignment PIN_A4 -to "mt-sv[1]"
 set_location_assignment PIN_C2 -to "mt-sv[3]"
@@ -145,11 +140,6 @@ set_location_assignment PIN_A5 -to "mt-sv[7]"
 set_location_assignment PIN_D1 -to "mt-sv[6]"
 set_location_assignment PIN_C1 -to "mt-sv[4]"
 set_location_assignment PIN_B5 -to "mt-sv[2]"
-set_global_assignment -name BDF_FILE tu10_input_parity_crc.bdf
-set_location_assignment PIN_T1 -to la[12]
-set_location_assignment PIN_U2 -to la[13]
-set_location_assignment PIN_V1 -to la[10]
-set_location_assignment PIN_V2 -to la[14]
 set_location_assignment PIN_AB19 -to qbus_virq7
 set_location_assignment PIN_N22 -to "mt-isv"
 set_location_assignment PIN_AB11 -to qbus_a21
@@ -167,17 +157,6 @@ set_location_assignment PIN_G1 -to led[3]
 set_location_assignment PIN_H2 -to led[2]
 set_location_assignment PIN_H1 -to led[1]
 set_location_assignment PIN_B16 -to "mt-vbr-2"
-set_global_assignment -name VHDL_FILE bus_led_pulse_stretcher.vhd
-set_location_assignment PIN_W1 -to la[15]
-set_location_assignment PIN_W3 -to la[11]
-set_global_assignment -name QIP_FILE count_16_aload.qip
-set_global_assignment -name QIP_FILE mux_qbus_out_16x8.qip
-set_global_assignment -name QIP_FILE qbus_mux_8x16.qip
-set_global_assignment -name QIP_FILE count_8_aload.qip
-set_global_assignment -name QIP_FILE count_26.qip
-set_global_assignment -name QIP_FILE count_2_aload.qip
-set_global_assignment -name QIP_FILE decode_6.qip
-set_global_assignment -name QIP_FILE decode_8.qip
 set_location_assignment PIN_U1 -to la[9]
 set_location_assignment PIN_U3 -to la[8]
 set_location_assignment PIN_T3 -to la[7]
@@ -188,6 +167,27 @@ set_location_assignment PIN_R1 -to la[2]
 set_location_assignment PIN_P2 -to la[5]
 set_location_assignment PIN_R2 -to la[6]
 set_location_assignment PIN_T2 -to la[3]
+set_location_assignment PIN_W1 -to ctrl[5]
+set_location_assignment PIN_W3 -to ctrl[1]
+set_location_assignment PIN_V2 -to ctrl[4]
+set_location_assignment PIN_V1 -to ctrl[0]
+set_location_assignment PIN_U2 -to ctrl[3]
+set_location_assignment PIN_T1 -to ctrl[2]
+set_global_assignment -name VHDL_FILE clk10khzdiv_test.vhd
+set_global_assignment -name SOURCE_FILE "db/mt11_controller_c-ii.cmp.rdb"
+set_global_assignment -name CDF_FILE output_files/Chain3.cdf
+set_global_assignment -name BDF_FILE "mt11_controller_c-ii.bdf"
+set_global_assignment -name SDC_FILE "mt11_controller_c-ii.sdc"
+set_global_assignment -name BDF_FILE tu10_input_parity_crc.bdf
+set_global_assignment -name VHDL_FILE bus_led_pulse_stretcher.vhd
+set_global_assignment -name QIP_FILE count_16_aload.qip
+set_global_assignment -name QIP_FILE mux_qbus_out_16x8.qip
+set_global_assignment -name QIP_FILE qbus_mux_8x16.qip
+set_global_assignment -name QIP_FILE count_8_aload.qip
+set_global_assignment -name QIP_FILE count_26.qip
+set_global_assignment -name QIP_FILE count_2_aload.qip
+set_global_assignment -name QIP_FILE decode_6.qip
+set_global_assignment -name QIP_FILE decode_8.qip
 set_global_assignment -name QIP_FILE qbus_mux_4x16.qip
 set_global_assignment -name QIP_FILE lpm_constant0.qip
 set_global_assignment -name QIP_FILE sh.qip
@@ -196,4 +196,10 @@ set_global_assignment -name QIP_FILE output_files/count_m304_1us.qip
 set_global_assignment -name QIP_FILE count_m307_15us.qip
 set_global_assignment -name QIP_FILE comp_m307_15us.qip
 set_global_assignment -name QIP_FILE tm11_count_4bit.qip
+set_global_assignment -name QIP_FILE output_files/comp_74123_5us.qip
+set_global_assignment -name QIP_FILE count_74123_50ms.qip
+set_global_assignment -name QIP_FILE output_files/comp_74123_50ms.qip
+set_global_assignment -name QIP_FILE includes/comp_74123_10us.qip
+set_global_assignment -name QIP_FILE includes/comp_74123_1us.qip
+set_global_assignment -name QIP_FILE includes/tu10_count_sdwn_timer.qip
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
