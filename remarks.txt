@@ -1,13 +1,15 @@
 USZ signal is not really used for write control. So it will not be used in a logic design and will be left as inactive.
-Maybe all 74123 delays in design should be made edge triggered?
-Maybe every delay should have its own part?
+Maybe all 74123 delays in design should be made edge triggered? (yes)
+Maybe every delay should have its own part? (yes)
 50ms SDWN time - isn't it too much?
 (fixed) BUS ERROR on setting a PWR CLR bit in MTC register
 MPCLR in TU10 are several inverters with same function
 TU10 motion control part might be made simpler because part of it is included in CM5300 drive functionality
+TM11 add ACLO and DCLO signals. One of them can be used in place of a disabled power clear signal
+A 16, 17 can be replaced with output-only drivers
 
 Test:
 NXM error using a MC1201.02 board with partially disabled RAM
-DMA address bit 16,17 functionality
+DMA address bit 16,17 functionality with MC102.03
 DMA byte transfer
 Are AD lines 18..21 are permanently disabled?
