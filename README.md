@@ -4,12 +4,14 @@ Magnetic tape drive controller that lets connect CM5300 tape drive to soviet mad
 Main idea of this project is to create a magnetic tape drive controller for soviet made PDP-11 compatible computers. There exists at least four different soviet controllers of this kind, but only a few has survived, not all work with standard MT device driver and none of them are documented well enough to make a replica. I'm planning to base my design on original DEC TM11 and TU10 devices that are very well documented with schematics and precise descriptions available online. Also, this kind of approach would make my controller fully compatible with standard MT device driver. Core of the controller will be a FPGA, mainly because this would make recreating and adapting a logic design easier. There should be made several modifications, for example, TM11 controller is Unibus based, but I need it to to work on a Qbus. Also, CM5300 tape drive control signals are a bit different than TU10 control signals, so tape drive interface should be adapted too.
 
 This project is in early and slow prototype stage. Prototype board is produced and electrically tested in one piece. FPGA is fully connected to all required signals. Board can be accessed over Qbus. Most of the logic is redrawn from the manuals. Interrupts are working.\
+Updates about this project are posted in this twitter thread: https://twitter.com/nuclearlighter/status/1393282838120763399
+
 Next steps:\
 DMA\
 Tape drive control and errors\
 Data path from computer to tape drive (write logic)\
 Data path from tape drive to computer (read logic)\
-Proper overall testing
+Proper overall testing (XXDP tests)
 
 On future:\
 Next revision board\
