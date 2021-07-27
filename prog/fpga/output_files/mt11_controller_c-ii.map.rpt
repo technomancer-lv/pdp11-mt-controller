@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mt11_controller_c-ii
-Fri Jul 23 15:55:02 2021
+Tue Jul 27 18:04:04 2021
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -29,57 +29,64 @@ Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  21. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst426|lpm_counter:LPM_COUNTER_component
  22. Parameter Settings for User Entity Instance: tm11:tm11|comp_m307_15us:inst433|lpm_compare:LPM_COMPARE_component
  23. Parameter Settings for User Entity Instance: tm11:tm11|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component
- 24. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst482|lpm_counter:LPM_COUNTER_component
- 25. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component
- 26. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component
- 27. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst386|lpm_counter:LPM_COUNTER_component
- 28. Parameter Settings for User Entity Instance: tm11:tm11|comp_2x3:inst111|lpm_compare:LPM_COMPARE_component
- 29. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component
- 30. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst463|lpm_counter:LPM_COUNTER_component
- 31. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst321|lpm_counter:LPM_COUNTER_component
- 32. Parameter Settings for User Entity Instance: tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component
- 33. Parameter Settings for User Entity Instance: tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component
- 34. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component
- 35. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component
- 36. Parameter Settings for User Entity Instance: tm11:tm11|qbus_mux_4x16:inst30|LPM_MUX:LPM_MUX_component
- 37. Parameter Settings for User Entity Instance: tm11:tm11|qbus_mux_8x16:inst22|LPM_MUX:LPM_MUX_component
- 38. Parameter Settings for User Entity Instance: tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component
- 39. Parameter Settings for User Entity Instance: tm11:tm11|lpm_constant0:inst42|lpm_constant:LPM_CONSTANT_component
- 40. Parameter Settings for User Entity Instance: tm11:tm11|mux_2x4:inst10|LPM_MUX:LPM_MUX_component
- 41. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_5us:inst289|lpm_compare:LPM_COMPARE_component
- 42. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component
- 43. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst394|lpm_counter:LPM_COUNTER_component
- 44. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component
- 45. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component
- 46. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_10us:inst281|lpm_compare:LPM_COMPARE_component
- 47. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst433|lpm_counter:LPM_COUNTER_component
- 48. Parameter Settings for User Entity Instance: tu10:tu10|cnt_timer_10khz:inst89|lpm_counter:LPM_COUNTER_component
- 49. Parameter Settings for User Entity Instance: tu10:tu10|tu10_mux_2x4:inst218|LPM_MUX:LPM_MUX_component
- 50. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst280|lpm_compare:LPM_COMPARE_component
- 51. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component
- 52. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component
- 53. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component
- 54. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst403|lpm_counter:LPM_COUNTER_component
- 55. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst344|lpm_compare:LPM_COMPARE_component
- 56. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst435|lpm_counter:LPM_COUNTER_component
- 57. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst349|lpm_compare:LPM_COMPARE_component
- 58. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component
- 59. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_50ms:inst302|lpm_compare:LPM_COMPARE_component
- 60. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_sdwn_timer:inst57|lpm_counter:LPM_COUNTER_component
- 61. Parameter Settings for User Entity Instance: tu10:tu10|mux2x1_led:inst55|LPM_MUX:LPM_MUX_component
- 62. Parameter Settings for User Entity Instance: tu10:tu10|sel_decode:inst92|lpm_decode:LPM_DECODE_component
- 63. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst325|lpm_counter:LPM_COUNTER_component
- 64. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst400|lpm_counter:LPM_COUNTER_component
- 65. Parameter Settings for User Entity Instance: tu10:tu10|mux2x1:inst42|LPM_MUX:LPM_MUX_component
- 66. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_50ms:inst300|lpm_compare:LPM_COMPARE_component
- 67. Parameter Settings for User Entity Instance: tu10:tu10|count_74123_50ms:inst298|lpm_counter:LPM_COUNTER_component
- 68. Parameter Settings for User Entity Instance: tu10:tu10|mux2x8_led:inst52|LPM_MUX:LPM_MUX_component
- 69. Parameter Settings for User Entity Instance: tu10:tu10|tu10_2x8_mux:inst140|LPM_MUX:LPM_MUX_component
- 70. Parameter Settings for User Entity Instance: tu10:tu10|mux2x8:inst41|LPM_MUX:LPM_MUX_component
- 71. Parameter Settings for User Entity Instance: tu10:tu10|count_26:inst70|lpm_counter:LPM_COUNTER_component
- 72. lpm_shiftreg Parameter Settings by Entity Instance
- 73. Elapsed Time Per Partition
- 74. Analysis & Synthesis Messages
+ 24. Parameter Settings for User Entity Instance: tm11:tm11|comp_m307_15us:inst496|lpm_compare:LPM_COMPARE_component
+ 25. Parameter Settings for User Entity Instance: tm11:tm11|count_m307_15us:inst493|lpm_counter:LPM_COUNTER_component
+ 26. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst489|lpm_counter:LPM_COUNTER_component
+ 27. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst487|lpm_counter:LPM_COUNTER_component
+ 28. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst503|lpm_counter:LPM_COUNTER_component
+ 29. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst499|lpm_counter:LPM_COUNTER_component
+ 30. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component
+ 31. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component
+ 32. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component
+ 33. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst386|lpm_counter:LPM_COUNTER_component
+ 34. Parameter Settings for User Entity Instance: tm11:tm11|comp_2x3:inst111|lpm_compare:LPM_COMPARE_component
+ 35. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component
+ 36. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst463|lpm_counter:LPM_COUNTER_component
+ 37. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst321|lpm_counter:LPM_COUNTER_component
+ 38. Parameter Settings for User Entity Instance: tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component
+ 39. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component
+ 40. Parameter Settings for User Entity Instance: tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component
+ 41. Parameter Settings for User Entity Instance: tm11:tm11|qbus_mux_4x16:inst30|LPM_MUX:LPM_MUX_component
+ 42. Parameter Settings for User Entity Instance: tm11:tm11|qbus_mux_8x16:inst22|LPM_MUX:LPM_MUX_component
+ 43. Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst508|lpm_counter:LPM_COUNTER_component
+ 44. Parameter Settings for User Entity Instance: tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component
+ 45. Parameter Settings for User Entity Instance: tm11:tm11|lpm_constant0:inst42|lpm_constant:LPM_CONSTANT_component
+ 46. Parameter Settings for User Entity Instance: tm11:tm11|mux_2x4:inst10|LPM_MUX:LPM_MUX_component
+ 47. Parameter Settings for User Entity Instance: tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component
+ 48. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_5us:inst289|lpm_compare:LPM_COMPARE_component
+ 49. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component
+ 50. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst394|lpm_counter:LPM_COUNTER_component
+ 51. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component
+ 52. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component
+ 53. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_10us:inst281|lpm_compare:LPM_COMPARE_component
+ 54. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst433|lpm_counter:LPM_COUNTER_component
+ 55. Parameter Settings for User Entity Instance: tu10:tu10|cnt_timer_10khz:inst89|lpm_counter:LPM_COUNTER_component
+ 56. Parameter Settings for User Entity Instance: tu10:tu10|tu10_mux_2x4:inst218|LPM_MUX:LPM_MUX_component
+ 57. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst280|lpm_compare:LPM_COMPARE_component
+ 58. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component
+ 59. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component
+ 60. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component
+ 61. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst403|lpm_counter:LPM_COUNTER_component
+ 62. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst344|lpm_compare:LPM_COMPARE_component
+ 63. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst435|lpm_counter:LPM_COUNTER_component
+ 64. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_1us:inst349|lpm_compare:LPM_COMPARE_component
+ 65. Parameter Settings for User Entity Instance: tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component
+ 66. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_50ms:inst302|lpm_compare:LPM_COMPARE_component
+ 67. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_sdwn_timer:inst57|lpm_counter:LPM_COUNTER_component
+ 68. Parameter Settings for User Entity Instance: tu10:tu10|mux2x1_led:inst55|LPM_MUX:LPM_MUX_component
+ 69. Parameter Settings for User Entity Instance: tu10:tu10|sel_decode:inst92|lpm_decode:LPM_DECODE_component
+ 70. Parameter Settings for User Entity Instance: tu10:tu10|tu10_count_4bit:inst325|lpm_counter:LPM_COUNTER_component
+ 71. Parameter Settings for User Entity Instance: tu10:tu10|count_m304_1us:inst400|lpm_counter:LPM_COUNTER_component
+ 72. Parameter Settings for User Entity Instance: tu10:tu10|mux2x1:inst42|LPM_MUX:LPM_MUX_component
+ 73. Parameter Settings for User Entity Instance: tu10:tu10|comp_74123_50ms:inst300|lpm_compare:LPM_COMPARE_component
+ 74. Parameter Settings for User Entity Instance: tu10:tu10|count_74123_50ms:inst298|lpm_counter:LPM_COUNTER_component
+ 75. Parameter Settings for User Entity Instance: tu10:tu10|mux2x8_led:inst52|LPM_MUX:LPM_MUX_component
+ 76. Parameter Settings for User Entity Instance: tu10:tu10|tu10_2x8_mux:inst140|LPM_MUX:LPM_MUX_component
+ 77. Parameter Settings for User Entity Instance: tu10:tu10|mux2x8:inst41|LPM_MUX:LPM_MUX_component
+ 78. Parameter Settings for User Entity Instance: tu10:tu10|count_26:inst70|lpm_counter:LPM_COUNTER_component
+ 79. lpm_shiftreg Parameter Settings by Entity Instance
+ 80. Elapsed Time Per Partition
+ 81. Analysis & Synthesis Messages
 
 
 
@@ -105,15 +112,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jul 23 15:55:01 2021           ;
+; Analysis & Synthesis Status        ; Successful - Tue Jul 27 18:04:04 2021           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mt11_controller_c-ii                            ;
 ; Top-level Entity Name              ; mt11_controller_c-ii                            ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 715                                             ;
-;     Total combinational functions  ; 686                                             ;
-;     Dedicated logic registers      ; 309                                             ;
-; Total registers                    ; 309                                             ;
+; Total logic elements               ; 885                                             ;
+;     Total combinational functions  ; 851                                             ;
+;     Dedicated logic registers      ; 361                                             ;
+; Total registers                    ; 361                                             ;
 ; Total pins                         ; 120                                             ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
@@ -270,7 +277,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/cntr_kgj.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cntr_kgj.tdf                    ;         ;
 ; comp_2x3.vhd                       ; yes             ; Auto-Found Wizard-Generated File         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/comp_2x3.vhd                       ;         ;
 ; db/cmpr_8hg.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cmpr_8hg.tdf                    ;         ;
-; db/cntr_dmh.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cntr_dmh.tdf                    ;         ;
 ; db/cntr_j1j.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cntr_j1j.tdf                    ;         ;
 ; lpm_mux.tdf                        ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_mux.tdf                             ;         ;
 ; muxlut.inc                         ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/muxlut.inc                              ;         ;
@@ -282,6 +288,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; lpm_constant.tdf                   ; yes             ; Megafunction                             ; c:/altera/13.0sp1/quartus/libraries/megafunctions/lpm_constant.tdf                        ;         ;
 ; mux_2x4.vhd                        ; yes             ; Auto-Found Wizard-Generated File         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/mux_2x4.vhd                        ;         ;
 ; db/mux_33e.tdf                     ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/mux_33e.tdf                     ;         ;
+; db/cntr_dmh.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cntr_dmh.tdf                    ;         ;
 ; tu10.bdf                           ; yes             ; Auto-Found Block Diagram/Schematic File  ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/tu10.bdf                           ;         ;
 ; tu10_count_16bit_aload.vhd         ; yes             ; Auto-Found Wizard-Generated File         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/tu10_count_16bit_aload.vhd         ;         ;
 ; db/cntr_83j.tdf                    ; yes             ; Auto-Generated Megafunction              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/db/cntr_83j.tdf                    ;         ;
@@ -307,28 +314,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+---------+
 ; Resource                                    ; Usage   ;
 +---------------------------------------------+---------+
-; Estimated Total logic elements              ; 715     ;
+; Estimated Total logic elements              ; 885     ;
 ;                                             ;         ;
-; Total combinational functions               ; 686     ;
+; Total combinational functions               ; 851     ;
 ; Logic element usage by number of LUT inputs ;         ;
-;     -- 4 input functions                    ; 254     ;
-;     -- 3 input functions                    ; 130     ;
-;     -- <=2 input functions                  ; 302     ;
+;     -- 4 input functions                    ; 340     ;
+;     -- 3 input functions                    ; 184     ;
+;     -- <=2 input functions                  ; 327     ;
 ;                                             ;         ;
 ; Logic elements by mode                      ;         ;
-;     -- normal mode                          ; 488     ;
-;     -- arithmetic mode                      ; 198     ;
+;     -- normal mode                          ; 636     ;
+;     -- arithmetic mode                      ; 215     ;
 ;                                             ;         ;
-; Total registers                             ; 309     ;
-;     -- Dedicated logic registers            ; 309     ;
+; Total registers                             ; 361     ;
+;     -- Dedicated logic registers            ; 361     ;
 ;     -- I/O registers                        ; 0       ;
 ;                                             ;         ;
 ; I/O pins                                    ; 120     ;
 ; Embedded Multiplier 9-bit elements          ; 0       ;
 ; Maximum fan-out node                        ; clk_25m ;
-; Maximum fan-out                             ; 156     ;
-; Total fan-out                               ; 2973    ;
-; Average fan-out                             ; 2.67    ;
+; Maximum fan-out                             ; 181     ;
+; Total fan-out                               ; 3705    ;
+; Average fan-out                             ; 2.78    ;
 +---------------------------------------------+---------+
 
 
@@ -337,8 +344,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                     ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                      ; Library Name ;
 +------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------------+--------------+
-; |mt11_controller_c-ii                          ; 686 (1)           ; 309 (0)      ; 0           ; 0            ; 0       ; 0         ; 120  ; 0            ; |mt11_controller_c-ii                                                                                                    ; work         ;
-;    |tm11:tm11|                                 ; 418 (190)         ; 158 (57)     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11                                                                                          ; work         ;
+; |mt11_controller_c-ii                          ; 851 (1)           ; 361 (0)      ; 0           ; 0            ; 0       ; 0         ; 120  ; 0            ; |mt11_controller_c-ii                                                                                                    ; work         ;
+;    |tm11:tm11|                                 ; 574 (215)         ; 210 (70)     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11                                                                                          ; work         ;
 ;       |bus_led_pulse_stretcher:inst28|         ; 31 (31)           ; 23 (23)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|bus_led_pulse_stretcher:inst28                                                           ; work         ;
 ;       |cnt_timer_10khz:inst83|                 ; 19 (0)            ; 11 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|cnt_timer_10khz:inst83                                                                   ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 19 (0)            ; 11 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component                                 ; work         ;
@@ -349,21 +356,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |comp_m307_15us:inst433|                 ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst433                                                                   ; work         ;
 ;          |lpm_compare:LPM_COMPARE_component|   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst433|lpm_compare:LPM_COMPARE_component                                 ; work         ;
 ;             |cmpr_l7j:auto_generated|          ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst433|lpm_compare:LPM_COMPARE_component|cmpr_l7j:auto_generated         ; work         ;
-;       |count_2_aload:inst53|                   ; 7 (0)             ; 2 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53                                                                     ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 7 (0)             ; 2 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component                                   ; work         ;
-;             |cntr_j1j:auto_generated|          ; 7 (7)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated           ; work         ;
-;       |count_8_aload:inst46|                   ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46                                                                     ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 12 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component                                   ; work         ;
-;             |cntr_kgj:auto_generated|          ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
-;       |count_8_aload:inst47|                   ; 25 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47                                                                     ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 25 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component                                   ; work         ;
-;             |cntr_kgj:auto_generated|          ; 25 (25)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
-;       |count_8_aload:inst50|                   ; 11 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50                                                                     ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 11 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component                                   ; work         ;
-;             |cntr_kgj:auto_generated|          ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
-;       |count_8_aload:inst51|                   ; 21 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51                                                                     ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 21 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component                                   ; work         ;
-;             |cntr_kgj:auto_generated|          ; 21 (21)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
+;       |comp_m307_15us:inst496|                 ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst496                                                                   ; work         ;
+;          |lpm_compare:LPM_COMPARE_component|   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst496|lpm_compare:LPM_COMPARE_component                                 ; work         ;
+;             |cmpr_l7j:auto_generated|          ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst496|lpm_compare:LPM_COMPARE_component|cmpr_l7j:auto_generated         ; work         ;
+;       |count_2_aload:inst53|                   ; 6 (0)             ; 2 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53                                                                     ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 6 (0)             ; 2 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component                                   ; work         ;
+;             |cntr_j1j:auto_generated|          ; 6 (6)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated           ; work         ;
+;       |count_8_aload:inst46|                   ; 31 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46                                                                     ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 31 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component                                   ; work         ;
+;             |cntr_kgj:auto_generated|          ; 31 (31)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
+;       |count_8_aload:inst47|                   ; 24 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47                                                                     ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 24 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component                                   ; work         ;
+;             |cntr_kgj:auto_generated|          ; 24 (24)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
+;       |count_8_aload:inst50|                   ; 32 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50                                                                     ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 32 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component                                   ; work         ;
+;             |cntr_kgj:auto_generated|          ; 32 (32)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
+;       |count_8_aload:inst51|                   ; 32 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51                                                                     ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 32 (0)            ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component                                   ; work         ;
+;             |cntr_kgj:auto_generated|          ; 32 (32)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated           ; work         ;
 ;       |count_m304_120ns:inst321|               ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst321                                                                 ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst321|lpm_counter:LPM_COUNTER_component                               ; work         ;
 ;             |cntr_gni:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst321|lpm_counter:LPM_COUNTER_component|cntr_gni:auto_generated       ; work         ;
@@ -376,6 +386,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |count_m304_120ns:inst426|               ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst426                                                                 ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst426|lpm_counter:LPM_COUNTER_component                               ; work         ;
 ;             |cntr_gni:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst426|lpm_counter:LPM_COUNTER_component|cntr_gni:auto_generated       ; work         ;
+;       |count_m304_120ns:inst508|               ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst508                                                                 ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst508|lpm_counter:LPM_COUNTER_component                               ; work         ;
+;             |cntr_gni:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst508|lpm_counter:LPM_COUNTER_component|cntr_gni:auto_generated       ; work         ;
 ;       |count_m304_1us:inst393|                 ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst393                                                                   ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component                                 ; work         ;
 ;             |cntr_ini:auto_generated|          ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
@@ -385,21 +398,39 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |count_m304_1us:inst463|                 ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst463                                                                   ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst463|lpm_counter:LPM_COUNTER_component                                 ; work         ;
 ;             |cntr_ini:auto_generated|          ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst463|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
-;       |count_m304_1us:inst482|                 ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst482                                                                   ; work         ;
-;          |lpm_counter:LPM_COUNTER_component|   ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst482|lpm_counter:LPM_COUNTER_component                                 ; work         ;
-;             |cntr_ini:auto_generated|          ; 5 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst482|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
+;       |count_m304_1us:inst487|                 ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst487                                                                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 4 (0)             ; 4 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst487|lpm_counter:LPM_COUNTER_component                                 ; work         ;
+;             |cntr_ini:auto_generated|          ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst487|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
+;       |count_m304_1us:inst489|                 ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst489                                                                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst489|lpm_counter:LPM_COUNTER_component                                 ; work         ;
+;             |cntr_ini:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst489|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
+;       |count_m304_1us:inst495|                 ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst495                                                                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component                                 ; work         ;
+;             |cntr_ini:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
+;       |count_m304_1us:inst499|                 ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst499                                                                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst499|lpm_counter:LPM_COUNTER_component                                 ; work         ;
+;             |cntr_ini:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst499|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
+;       |count_m304_1us:inst503|                 ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst503                                                                   ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 3 (0)             ; 3 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst503|lpm_counter:LPM_COUNTER_component                                 ; work         ;
+;             |cntr_ini:auto_generated|          ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst503|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated         ; work         ;
 ;       |count_m307_15us:inst432|                ; 9 (0)             ; 9 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst432                                                                  ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 9 (0)             ; 9 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component                                ; work         ;
 ;             |cntr_mni:auto_generated|          ; 9 (9)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated        ; work         ;
-;       |decode_8:inst34|                        ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34                                                                          ; work         ;
-;          |lpm_decode:LPM_DECODE_component|     ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34|lpm_decode:LPM_DECODE_component                                          ; work         ;
-;             |decode_s6f:auto_generated|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34|lpm_decode:LPM_DECODE_component|decode_s6f:auto_generated                ; work         ;
-;       |qbus_mux_8x16:inst22|                   ; 47 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22                                                                     ; work         ;
-;          |lpm_mux:LPM_MUX_component|           ; 47 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22|lpm_mux:LPM_MUX_component                                           ; work         ;
-;             |mux_s4e:auto_generated|           ; 47 (47)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22|lpm_mux:LPM_MUX_component|mux_s4e:auto_generated                    ; work         ;
+;       |count_m307_15us:inst493|                ; 9 (0)             ; 9 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst493                                                                  ; work         ;
+;          |lpm_counter:LPM_COUNTER_component|   ; 9 (0)             ; 9 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst493|lpm_counter:LPM_COUNTER_component                                ; work         ;
+;             |cntr_mni:auto_generated|          ; 9 (9)             ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst493|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated        ; work         ;
+;       |decode_8:inst34|                        ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34                                                                          ; work         ;
+;          |lpm_decode:LPM_DECODE_component|     ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34|lpm_decode:LPM_DECODE_component                                          ; work         ;
+;             |decode_s6f:auto_generated|        ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|decode_8:inst34|lpm_decode:LPM_DECODE_component|decode_s6f:auto_generated                ; work         ;
+;       |qbus_mux_4x16:inst30|                   ; 73 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_4x16:inst30                                                                     ; work         ;
+;          |lpm_mux:LPM_MUX_component|           ; 73 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_4x16:inst30|lpm_mux:LPM_MUX_component                                           ; work         ;
+;             |mux_p4e:auto_generated|           ; 73 (73)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_4x16:inst30|lpm_mux:LPM_MUX_component|mux_p4e:auto_generated                    ; work         ;
+;       |qbus_mux_8x16:inst22|                   ; 27 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22                                                                     ; work         ;
+;          |lpm_mux:LPM_MUX_component|           ; 27 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22|lpm_mux:LPM_MUX_component                                           ; work         ;
+;             |mux_s4e:auto_generated|           ; 27 (27)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22|lpm_mux:LPM_MUX_component|mux_s4e:auto_generated                    ; work         ;
 ;       |sh:inst27|                              ; 7 (0)             ; 8 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|sh:inst27                                                                                ; work         ;
 ;          |lpm_shiftreg:LPM_SHIFTREG_component| ; 7 (7)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tm11:tm11|sh:inst27|lpm_shiftreg:LPM_SHIFTREG_component                                            ; work         ;
-;    |tu10:tu10|                                 ; 267 (99)          ; 151 (40)     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tu10:tu10                                                                                          ; work         ;
+;    |tu10:tu10|                                 ; 276 (108)         ; 151 (40)     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tu10:tu10                                                                                          ; work         ;
 ;       |cnt_timer_10khz:inst89|                 ; 13 (0)            ; 11 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tu10:tu10|cnt_timer_10khz:inst89                                                                   ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|   ; 13 (0)            ; 11 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tu10:tu10|cnt_timer_10khz:inst89|lpm_counter:LPM_COUNTER_component                                 ; work         ;
 ;             |cntr_mik:auto_generated|          ; 13 (13)           ; 11 (11)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |mt11_controller_c-ii|tu10:tu10|cnt_timer_10khz:inst89|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated         ; work         ;
@@ -481,7 +512,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Altera ; LPM_COMPARE  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst433         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/comp_m307_15us.vhd                 ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst460         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
 ; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst463         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
-; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst482         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst487         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst489         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst493        ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/count_m307_15us.vhd                ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst495         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COMPARE  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|comp_m307_15us:inst496         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/comp_m307_15us.vhd                 ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst499         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst503         ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/output_files/count_m304_1us.vhd    ;
+; Altera ; LPM_COUNTER  ; 13.0    ; N/A          ; N/A          ; |mt11_controller_c-ii|tm11:tm11|count_m304_120ns:inst508       ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/count_m304_120ns.vhd               ;
 ; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |mt11_controller_c-ii|tu10:tu10|mux2x8:inst41                  ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/mux2x8.vhd                         ;
 ; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |mt11_controller_c-ii|tu10:tu10|mux2x1:inst42                  ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/mux2x1.vhd                         ;
 ; Altera ; LPM_MUX      ; N/A     ; N/A          ; N/A          ; |mt11_controller_c-ii|tu10:tu10|mux2x8_led:inst52              ; D:/retrocomputing/CM5300/pdp11-mt-controller/prog/fpga/mux2x8_led.vhd                     ;
@@ -541,12 +579,21 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Logic Cell Name                                                                                                       ;    ;
 +-----------------------------------------------------------------------------------------------------------------------+----+
 ; tu10:tu10|inst278~0                                                                                                   ;    ;
+; tm11:tm11|inst524~0                                                                                                   ;    ;
 ; tu10:tu10|inst264~0                                                                                                   ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|safe_q[14]~0       ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[15]~1 ;    ;
+; tu10:tu10|inst191~0                                                                                                   ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[4]~3            ;    ;
 ; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[4]~3            ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[14]~0 ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
+; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[13]~2 ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[12]~3 ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[11]~4 ;    ;
@@ -562,46 +609,39 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[1]~14 ;    ;
 ; tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|latch_signal[0]~15 ;    ;
 ; tu10:tu10|tu10_count_4bit:inst325|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|latch_signal[3]~2         ;    ;
+; tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated|latch_signal[0]~0            ;    ;
+; tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated|latch_signal[1]~1            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
-; tu10:tu10|inst191~0                                                                                                   ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
 ; tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
-; tm11:tm11|count_8_aload:inst47|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[7]~0            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
-; tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated|latch_signal[1]~0            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[6]~1            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[4]~3            ;    ;
-; tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component|cntr_j1j:auto_generated|latch_signal[0]~1            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[5]~2            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[4]~3            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[4]~3            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[3]~4            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[2]~5            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[1]~6            ;    ;
 ; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
+; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|latch_signal[0]~7            ;    ;
+; tm11:tm11|inst380~0                                                                                                   ;    ;
 ; tu10:tu10|tu10_count_4bit:inst325|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|latch_signal[2]~3         ;    ;
 ; tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated|latch_signal[10]~0         ;    ;
 ; tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated|latch_signal[7]~3          ;    ;
 ; tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated|latch_signal[6]~4          ;    ;
 ; tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated|latch_signal[5]~5          ;    ;
 ; tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component|cntr_mik:auto_generated|latch_signal[0]~10         ;    ;
-; Number of logic cells representing combinational loops                                                                ; 61 ;
+; Number of logic cells representing combinational loops                                                                ; 63 ;
 +-----------------------------------------------------------------------------------------------------------------------+----+
 Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
@@ -614,19 +654,13 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; tu10:tu10|inst212                                                                                            ; Stuck at GND due to stuck port clock   ;
 ; tu10:tu10|inst276                                                                                            ; Stuck at GND due to stuck port clock   ;
 ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0..3] ; Stuck at GND due to stuck port aclear  ;
-; tm11:tm11|inst332                                                                                            ; Stuck at VCC due to stuck port data_in ;
-; tm11:tm11|inst329                                                                                            ; Stuck at VCC due to stuck port data_in ;
-; tm11:tm11|inst350                                                                                            ; Lost fanout                            ;
-; tm11:tm11|inst468                                                                                            ; Stuck at GND due to stuck port clear   ;
-; tm11:tm11|inst480                                                                                            ; Stuck at GND due to stuck port clear   ;
 ; tm11:tm11|inst277                                                                                            ; Stuck at GND due to stuck port data_in ;
-; tm11:tm11|inst219                                                                                            ; Stuck at GND due to stuck port clock   ;
-; tm11:tm11|inst147[0..3]                                                                                      ; Stuck at GND due to stuck port clock   ;
-; tm11:tm11|count_8_aload:inst50|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|pre_hazard[0..7]    ; Stuck at GND due to stuck port clock   ;
+; tm11:tm11|inst274                                                                                            ; Lost fanout                            ;
 ; tu10:tu10|inst190                                                                                            ; Stuck at VCC due to stuck port clock   ;
+; tm11:tm11|inst332                                                                                            ; Stuck at VCC due to stuck port clock   ;
 ; tm11:tm11|inst341                                                                                            ; Stuck at GND due to stuck port clock   ;
 ; tm11:tm11|inst343                                                                                            ; Stuck at GND due to stuck port clock   ;
-; tm11:tm11|count_8_aload:inst46|lpm_counter:LPM_COUNTER_component|cntr_kgj:auto_generated|pre_hazard[0..7]    ; Stuck at GND due to stuck port clock   ;
+; tm11:tm11|inst350                                                                                            ; Stuck at GND due to stuck port clock   ;
 ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0..3] ; Stuck at GND due to stuck port aclear  ;
 ; tm11:tm11|inst314                                                                                            ; Stuck at GND due to stuck port clock   ;
 ; tu10:tu10|inst473                                                                                            ; Stuck at GND due to stuck port clock   ;
@@ -639,46 +673,46 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0..8]     ; Lost fanout                            ;
 ; tm11:tm11|inst359                                                                                            ; Lost fanout                            ;
 ; tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component|cntr_dmh:auto_generated|safe_q[0..26]            ; Lost fanout                            ;
+; tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated|safe_q[3,4]       ; Lost fanout                            ;
+; tm11:tm11|count_m304_1us:inst499|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated|safe_q[3,4]       ; Lost fanout                            ;
+; tm11:tm11|count_m304_1us:inst503|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated|safe_q[3,4]       ; Lost fanout                            ;
+; tm11:tm11|count_m304_1us:inst487|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated|safe_q[4]         ; Lost fanout                            ;
+; tm11:tm11|count_m304_1us:inst489|lpm_counter:LPM_COUNTER_component|cntr_ini:auto_generated|safe_q[3,4]       ; Lost fanout                            ;
 ; tm11:tm11|inst309~_emulated                                                                                  ; Stuck at GND due to stuck port clock   ;
 ; tm11:tm11|inst451~_emulated                                                                                  ; Stuck at GND due to stuck port clock   ;
 ; tm11:tm11|inst396~_emulated                                                                                  ; Stuck at GND due to stuck port clock   ;
-; Total Number of Removed Registers = 130                                                                      ;                                        ;
+; Total Number of Removed Registers = 116                                                                      ;                                        ;
 +--------------------------------------------------------------------------------------------------------------+----------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                                ;
-+-------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-; Register name     ; Reason for Removal        ; Registers Removed due to This Register                                                                     ;
-+-------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
-; tu10:tu10|inst473 ; Stuck at GND              ; tu10:tu10|inst475, tu10:tu10|inst178,                                                                      ;
-;                   ; due to stuck port clock   ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[2],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[1],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[8],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[7],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[6],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[5],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[4],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[3],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[2],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[1],     ;
-;                   ;                           ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0]      ;
-; tu10:tu10|inst212 ; Stuck at GND              ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[2], ;
-;                   ; due to stuck port clock   ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[1], ;
-;                   ;                           ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0], ;
-;                   ;                           ; tu10:tu10|inst190,                                                                                         ;
-;                   ;                           ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[3], ;
-;                   ;                           ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[2], ;
-;                   ;                           ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[1], ;
-;                   ;                           ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0]  ;
-; tm11:tm11|inst277 ; Stuck at GND              ; tm11:tm11|inst147[3], tm11:tm11|inst147[2], tm11:tm11|inst147[1], tm11:tm11|inst147[0]                     ;
-;                   ; due to stuck port data_in ;                                                                                                            ;
-; tm11:tm11|inst332 ; Stuck at VCC              ; tm11:tm11|inst329, tm11:tm11|inst350                                                                       ;
-;                   ; due to stuck port data_in ;                                                                                                            ;
-; tm11:tm11|inst468 ; Stuck at GND              ; tm11:tm11|inst480,                                                                                         ;
-;                   ; due to stuck port clear   ; tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component|cntr_dmh:auto_generated|safe_q[23]             ;
-+-------------------+---------------------------+------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                              ;
++-------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
+; Register name     ; Reason for Removal      ; Registers Removed due to This Register                                                                     ;
++-------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
+; tu10:tu10|inst473 ; Stuck at GND            ; tu10:tu10|inst475, tu10:tu10|inst178,                                                                      ;
+;                   ; due to stuck port clock ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[2],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[1],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[8],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[7],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[6],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[5],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[4],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[3],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[2],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[1],     ;
+;                   ;                         ; tu10:tu10|count_m307_15us:inst436|lpm_counter:LPM_COUNTER_component|cntr_mni:auto_generated|safe_q[0]      ;
+; tu10:tu10|inst212 ; Stuck at GND            ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[2], ;
+;                   ; due to stuck port clock ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[1], ;
+;                   ;                         ; tu10:tu10|tu10_count_4bit:inst186|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0], ;
+;                   ;                         ; tu10:tu10|inst190,                                                                                         ;
+;                   ;                         ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[3], ;
+;                   ;                         ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[2], ;
+;                   ;                         ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[1], ;
+;                   ;                         ; tu10:tu10|tu10_count_4bit:inst187|lpm_counter:LPM_COUNTER_component|cntr_l1j:auto_generated|pre_hazard[0]  ;
+; tm11:tm11|inst274 ; Lost Fanouts            ; tm11:tm11|inst359                                                                                          ;
++-------------------+-------------------------+------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -686,12 +720,12 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 309   ;
+; Total registers                              ; 361   ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 22    ;
-; Number of registers using Asynchronous Clear ; 243   ;
+; Number of registers using Asynchronous Clear ; 300   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 73    ;
+; Number of registers using Clock Enable       ; 96    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -701,25 +735,27 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
+; tm11:tm11|inst329                      ; 5       ;
+; tm11:tm11|inst507                      ; 4       ;
+; tm11:tm11|inst377                      ; 10      ;
+; tm11:tm11|inst376                      ; 3       ;
 ; tm11:tm11|inst408                      ; 1       ;
 ; tm11:tm11|inst417                      ; 1       ;
-; tm11:tm11|inst377                      ; 6       ;
-; tm11:tm11|inst376                      ; 2       ;
 ; tm11:tm11|inst445                      ; 1       ;
 ; tm11:tm11|inst117                      ; 1       ;
 ; tm11:tm11|inst112                      ; 1       ;
-; Total number of inverted registers = 7 ;         ;
+; Total number of inverted registers = 9 ;         ;
 +----------------------------------------+---------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                     ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------+
-; 3:1                ; 22 bits   ; 44 LEs        ; 44 LEs               ; 0 LEs                  ; Yes        ; |mt11_controller_c-ii|tm11:tm11|bus_led_pulse_stretcher:inst28|clk_bus_div[8]~reg0                                   ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |mt11_controller_c-ii|tm11:tm11|qbus_mux_8x16:inst22|lpm_mux:LPM_MUX_component|mux_s4e:auto_generated|result_node[1] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
+; 3:1                ; 22 bits   ; 44 LEs        ; 44 LEs               ; 0 LEs                  ; Yes        ; |mt11_controller_c-ii|tm11:tm11|bus_led_pulse_stretcher:inst28|clk_bus_div[3]~reg0 ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |mt11_controller_c-ii|tu10:tu10|inst130                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------+
@@ -911,7 +947,166 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst482|lpm_counter:LPM_COUNTER_component ;
+; Parameter Settings for User Entity Instance: tm11:tm11|comp_m307_15us:inst496|lpm_compare:LPM_COMPARE_component ;
++------------------------+------------+---------------------------------------------------------------------------+
+; Parameter Name         ; Value      ; Type                                                                      ;
++------------------------+------------+---------------------------------------------------------------------------+
+; lpm_width              ; 9          ; Signed Integer                                                            ;
+; LPM_REPRESENTATION     ; UNSIGNED   ; Untyped                                                                   ;
+; LPM_PIPELINE           ; 0          ; Untyped                                                                   ;
+; CHAIN_SIZE             ; 8          ; Untyped                                                                   ;
+; ONE_INPUT_IS_CONSTANT  ; YES        ; Untyped                                                                   ;
+; CARRY_CHAIN            ; MANUAL     ; Untyped                                                                   ;
+; CASCADE_CHAIN          ; MANUAL     ; Untyped                                                                   ;
+; CARRY_CHAIN_LENGTH     ; 48         ; CARRY_CHAIN_LENGTH                                                        ;
+; CASCADE_CHAIN_LENGTH   ; 2          ; CASCADE_CHAIN_LENGTH                                                      ;
+; DEVICE_FAMILY          ; Cyclone II ; Untyped                                                                   ;
+; CBXI_PARAMETER         ; cmpr_l7j   ; Untyped                                                                   ;
+; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                                            ;
++------------------------+------------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m307_15us:inst493|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+---------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                      ;
++------------------------+-------------+---------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                              ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                              ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                            ;
+; LPM_WIDTH              ; 9           ; Signed Integer                                                            ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                   ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                   ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                   ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                   ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                   ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                   ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                   ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                        ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                        ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                   ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                   ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                   ;
+; CBXI_PARAMETER         ; cntr_mni    ; Untyped                                                                   ;
++------------------------+-------------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst489|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                     ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                           ;
+; LPM_WIDTH              ; 5           ; Signed Integer                                                           ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                  ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                  ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                  ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                       ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                       ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                  ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                  ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; cntr_ini    ; Untyped                                                                  ;
++------------------------+-------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst487|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                     ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                           ;
+; LPM_WIDTH              ; 5           ; Signed Integer                                                           ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                  ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                  ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                  ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                       ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                       ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                  ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                  ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; cntr_ini    ; Untyped                                                                  ;
++------------------------+-------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst503|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                     ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                           ;
+; LPM_WIDTH              ; 5           ; Signed Integer                                                           ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                  ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                  ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                  ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                       ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                       ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                  ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                  ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; cntr_ini    ; Untyped                                                                  ;
++------------------------+-------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst499|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                     ;
++------------------------+-------------+--------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                               ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                             ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                             ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                           ;
+; LPM_WIDTH              ; 5           ; Signed Integer                                                           ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                  ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                  ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                  ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                  ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                  ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                  ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                       ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                       ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                  ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                  ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                  ;
+; CBXI_PARAMETER         ; cntr_ini    ; Untyped                                                                  ;
++------------------------+-------------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component ;
 +------------------------+-------------+--------------------------------------------------------------------------+
 ; Parameter Name         ; Value       ; Type                                                                     ;
 +------------------------+-------------+--------------------------------------------------------------------------+
@@ -1123,33 +1318,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+----------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component ;
-+------------------------+-------------+-------------------------------------------------------------------+
-; Parameter Name         ; Value       ; Type                                                              ;
-+------------------------+-------------+-------------------------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                        ;
-; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                      ;
-; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                      ;
-; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                    ;
-; LPM_WIDTH              ; 27          ; Signed Integer                                                    ;
-; LPM_DIRECTION          ; UP          ; Untyped                                                           ;
-; LPM_MODULUS            ; 0           ; Untyped                                                           ;
-; LPM_AVALUE             ; UNUSED      ; Untyped                                                           ;
-; LPM_SVALUE             ; UNUSED      ; Untyped                                                           ;
-; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                           ;
-; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                           ;
-; CARRY_CHAIN            ; MANUAL      ; Untyped                                                           ;
-; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                ;
-; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                ;
-; CARRY_CNT_EN           ; SMART       ; Untyped                                                           ;
-; LABWIDE_SCLR           ; ON          ; Untyped                                                           ;
-; USE_NEW_VERSION        ; TRUE        ; Untyped                                                           ;
-; CBXI_PARAMETER         ; cntr_dmh    ; Untyped                                                           ;
-+------------------------+-------------+-------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +---------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component ;
 +------------------------+-------------+------------------------------------------------------------------------+
@@ -1269,6 +1437,33 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_m304_120ns:inst508|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+----------------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                                       ;
++------------------------+-------------+----------------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                                 ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                               ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                               ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                             ;
+; LPM_WIDTH              ; 3           ; Signed Integer                                                             ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                                    ;
+; LPM_MODULUS            ; 0           ; Untyped                                                                    ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                                    ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                                    ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                                    ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                                    ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                                    ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                         ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                         ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                                    ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                                    ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                                    ;
+; CBXI_PARAMETER         ; cntr_gni    ; Untyped                                                                    ;
++------------------------+-------------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +-----------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: tm11:tm11|cnt_timer_10khz:inst83|lpm_counter:LPM_COUNTER_component ;
 +------------------------+-------------+--------------------------------------------------------------------------+
@@ -1325,6 +1520,33 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CBXI_PARAMETER         ; mux_33e    ; Untyped                                                   ;
 ; DEVICE_FAMILY          ; Cyclone II ; Untyped                                                   ;
 +------------------------+------------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component ;
++------------------------+-------------+-------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                              ;
++------------------------+-------------+-------------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                        ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                      ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                      ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                    ;
+; LPM_WIDTH              ; 27          ; Signed Integer                                                    ;
+; LPM_DIRECTION          ; UP          ; Untyped                                                           ;
+; LPM_MODULUS            ; 0           ; Untyped                                                           ;
+; LPM_AVALUE             ; UNUSED      ; Untyped                                                           ;
+; LPM_SVALUE             ; UNUSED      ; Untyped                                                           ;
+; LPM_PORT_UPDOWN        ; PORT_UNUSED ; Untyped                                                           ;
+; DEVICE_FAMILY          ; Cyclone II  ; Untyped                                                           ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                           ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                ;
+; NOT_GATE_PUSH_BACK     ; ON          ; NOT_GATE_PUSH_BACK                                                ;
+; CARRY_CNT_EN           ; SMART       ; Untyped                                                           ;
+; LABWIDE_SCLR           ; ON          ; Untyped                                                           ;
+; USE_NEW_VERSION        ; TRUE        ; Untyped                                                           ;
+; CBXI_PARAMETER         ; cntr_dmh    ; Untyped                                                           ;
++------------------------+-------------+-------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2105,7 +2327,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -2115,7 +2337,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Jul 23 15:54:50 2021
+    Info: Processing started: Tue Jul 27 18:03:50 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mt11_controller_c-ii -c mt11_controller_c-ii
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file clk10khzdiv_test.vhd
@@ -2193,25 +2415,52 @@ Info (12021): Found 2 design units, including 1 entities, in source file include
 Info (12021): Found 2 design units, including 1 entities, in source file includes/tu10_count_sdwn_timer.vhd
     Info (12022): Found design unit 1: tu10_count_sdwn_timer-SYN
     Info (12023): Found entity 1: tu10_count_sdwn_timer
+Info (12021): Found 2 design units, including 1 entities, in source file constant_dma_test.vhd
+    Info (12022): Found design unit 1: constant_dma_test-SYN
+    Info (12023): Found entity 1: constant_dma_test
 Info (12127): Elaborating entity "mt11_controller_c-ii" for the top level hierarchy
 Warning (12125): Using design file tm11.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: tm11
 Info (12128): Elaborating entity "tm11" for hierarchy "tm11:tm11"
+Warning (275083): Bus "m304_10[4..0]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275083): Bus "m304_11[4..0]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275083): Bus "m304_20[2..0]" found using same base name as "m304_2", which might lead to a name conflict.
+Warning (275083): Bus "m304_20[2]" found using same base name as "m304_2", which might lead to a name conflict.
+Warning (275083): Bus "m304_20[0]" found using same base name as "m304_2", which might lead to a name conflict.
+Warning (275083): Bus "m304_12[4..0]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275083): Bus "m304_10[3]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275083): Bus "m304_11[2]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275083): Bus "m304_12[2]" found using same base name as "m304_1", which might lead to a name conflict.
+Warning (275080): Converted elements in bus name "m304_1" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_1[0]" to "m304_10"
+    Warning (275081): Converted element name(s) from "m304_1[2]" to "m304_12"
+    Warning (275081): Converted element name(s) from "m304_1[2..0]" to "m304_12..0"
+Warning (275080): Converted elements in bus name "m304_10" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_10[4..0]" to "m304_104..0"
+    Warning (275081): Converted element name(s) from "m304_10[3]" to "m304_103"
+Warning (275080): Converted elements in bus name "m304_11" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_11[4..0]" to "m304_114..0"
+    Warning (275081): Converted element name(s) from "m304_11[2]" to "m304_112"
+Warning (275080): Converted elements in bus name "m304_12" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_12[4..0]" to "m304_124..0"
+    Warning (275081): Converted element name(s) from "m304_12[2]" to "m304_122"
+Warning (275080): Converted elements in bus name "m304_2" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_2[2]" to "m304_22"
+    Warning (275081): Converted element name(s) from "m304_2[0]" to "m304_20"
+    Warning (275081): Converted element name(s) from "m304_2[2..0]" to "m304_22..0"
+Warning (275080): Converted elements in bus name "m304_20" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "m304_20[2..0]" to "m304_202..0"
+    Warning (275081): Converted element name(s) from "m304_20[2]" to "m304_202"
+    Warning (275081): Converted element name(s) from "m304_20[0]" to "m304_200"
+Warning (275086): Found inconsistent I/O type for element "qbus_a"
+Warning (275080): Converted elements in bus name "qbus_a" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "qbus_a[21..18]" to "qbus_a21..18"
+    Warning (275081): Converted element name(s) from "qbus_a[17..16]" to "qbus_a17..16"
 Warning (275009): Pin "qbus_refresh" not connected
 Warning (275009): Pin "qbus_halt" not connected
-Warning (275008): Primitive "AND2" of instance "inst107" not used
-Warning (275008): Primitive "NOT" of instance "inst19" not used
-Warning (275008): Primitive "NOT" of instance "inst206" not used
-Warning (275008): Primitive "AND2" of instance "inst232" not used
-Warning (275008): Primitive "AND2" of instance "inst233" not used
-Warning (275008): Primitive "AND2" of instance "inst234" not used
-Warning (275008): Primitive "AND2" of instance "inst26" not used
-Warning (275008): Primitive "DFF" of instance "inst274" not used
-Warning (275008): Primitive "NAND2" of instance "inst275" not used
-Warning (275008): Primitive "NAND3" of instance "inst276" not used
+Warning (275009): Pin "ctrl" not connected
 Warning (275008): Primitive "NAND2" of instance "inst302" not used
 Warning (275008): Primitive "NOT" of instance "inst305" not used
-Warning (275008): Primitive "NOT" of instance "inst328" not used
 Warning (275008): Primitive "NOT" of instance "inst407" not used
 Info (12128): Elaborating entity "bus_led_pulse_stretcher" for hierarchy "tm11:tm11|bus_led_pulse_stretcher:inst28"
 Info (12128): Elaborating entity "sh" for hierarchy "tm11:tm11|sh:inst27"
@@ -2307,17 +2556,6 @@ Info (12133): Instantiated megafunction "tm11:tm11|comp_2x3:inst111|lpm_compare:
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_8hg.tdf
     Info (12023): Found entity 1: cmpr_8hg
 Info (12128): Elaborating entity "cmpr_8hg" for hierarchy "tm11:tm11|comp_2x3:inst111|lpm_compare:LPM_COMPARE_component|cmpr_8hg:auto_generated"
-Info (12128): Elaborating entity "count_26" for hierarchy "tm11:tm11|count_26:inst48"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component"
-Info (12130): Elaborated megafunction instantiation "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component"
-Info (12133): Instantiated megafunction "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component" with the following parameter:
-    Info (12134): Parameter "lpm_direction" = "UP"
-    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
-    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
-    Info (12134): Parameter "lpm_width" = "27"
-Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_dmh.tdf
-    Info (12023): Found entity 1: cntr_dmh
-Info (12128): Elaborating entity "cntr_dmh" for hierarchy "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component|cntr_dmh:auto_generated"
 Info (12128): Elaborating entity "count_2_aload" for hierarchy "tm11:tm11|count_2_aload:inst53"
 Info (12128): Elaborating entity "lpm_counter" for hierarchy "tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component"
 Info (12130): Elaborated megafunction instantiation "tm11:tm11|count_2_aload:inst53|lpm_counter:LPM_COUNTER_component"
@@ -2396,6 +2634,17 @@ Info (12133): Instantiated megafunction "tm11:tm11|mux_2x4:inst10|LPM_MUX:LPM_MU
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_33e.tdf
     Info (12023): Found entity 1: mux_33e
 Info (12128): Elaborating entity "mux_33e" for hierarchy "tm11:tm11|mux_2x4:inst10|LPM_MUX:LPM_MUX_component|mux_33e:auto_generated"
+Info (12128): Elaborating entity "count_26" for hierarchy "tm11:tm11|count_26:inst48"
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component"
+Info (12130): Elaborated megafunction instantiation "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component"
+Info (12133): Instantiated megafunction "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component" with the following parameter:
+    Info (12134): Parameter "lpm_direction" = "UP"
+    Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
+    Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
+    Info (12134): Parameter "lpm_width" = "27"
+Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_dmh.tdf
+    Info (12023): Found entity 1: cntr_dmh
+Info (12128): Elaborating entity "cntr_dmh" for hierarchy "tm11:tm11|count_26:inst48|lpm_counter:LPM_COUNTER_component|cntr_dmh:auto_generated"
 Warning (12125): Using design file tu10.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: tu10
 Info (12128): Elaborating entity "tu10" for hierarchy "tu10:tu10"
@@ -2593,10 +2842,15 @@ Warning (12125): Using design file mux2x8.vhd, which is not specified as a desig
     Info (12023): Found entity 1: mux2x8
 Info (12128): Elaborating entity "mux2x8" for hierarchy "tu10:tu10|mux2x8:inst41"
 Info (12128): Elaborating entity "clk10khzdiv_test" for hierarchy "clk10khzdiv_test:clk10k_test"
+Warning (12001): Port "ctrl[2]" does not exist in entity definition of "tm11".  The port's range differs between the entity definition and its actual instantiation, "tm11:tm11".
+Warning (12001): Port "ctrl[3]" does not exist in entity definition of "tm11".  The port's range differs between the entity definition and its actual instantiation, "tm11:tm11".
+Warning (12001): Port "ctrl[4]" does not exist in entity definition of "tm11".  The port's range differs between the entity definition and its actual instantiation, "tm11:tm11".
+Warning (12001): Port "ctrl[5]" does not exist in entity definition of "tm11".  The port's range differs between the entity definition and its actual instantiation, "tm11:tm11".
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer tu10:tu10|inst45~synth
     Warning (19017): Found clock multiplexer tu10:tu10|inst264~synth
     Warning (19017): Found clock multiplexer tu10:tu10|tu10_count_16bit_aload:inst220|lpm_counter:LPM_COUNTER_component|cntr_83j:auto_generated|safe_q[14]~synth
+    Warning (19017): Found clock multiplexer tu10:tu10|inst191~synth
     Warning (19017): Found clock multiplexer tu10:tu10|inst278~synth
 Info (13000): Registers with preset signals will power-up high
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
@@ -2606,12 +2860,12 @@ Warning (13004): Presettable and clearable registers converted to equivalent cir
     Warning (13310): Register "tu10:tu10|inst352" is converted into an equivalent circuit using register "tu10:tu10|inst352~_emulated" and latch "tu10:tu10|inst352~1"
     Warning (13310): Register "tu10:tu10|inst213" is converted into an equivalent circuit using register "tu10:tu10|inst213~_emulated" and latch "tu10:tu10|inst213~1"
     Warning (13310): Register "tu10:tu10|inst255" is converted into an equivalent circuit using register "tu10:tu10|inst255~_emulated" and latch "tu10:tu10|inst255~1"
-    Warning (13310): Register "tm11:tm11|inst132" is converted into an equivalent circuit using register "tm11:tm11|inst132~_emulated" and latch "tm11:tm11|inst132~1"
-    Warning (13310): Register "tm11:tm11|inst131" is converted into an equivalent circuit using register "tm11:tm11|inst131~_emulated" and latch "tm11:tm11|inst132~1"
+    Warning (13310): Register "tm11:tm11|inst131" is converted into an equivalent circuit using register "tm11:tm11|inst131~_emulated" and latch "tm11:tm11|inst131~1"
+    Warning (13310): Register "tm11:tm11|inst130" is converted into an equivalent circuit using register "tm11:tm11|inst130~_emulated" and latch "tm11:tm11|inst131~1"
+    Warning (13310): Register "tm11:tm11|inst132" is converted into an equivalent circuit using register "tm11:tm11|inst132~_emulated" and latch "tm11:tm11|inst131~1"
+    Warning (13310): Register "tm11:tm11|inst304" is converted into an equivalent circuit using register "tm11:tm11|inst304~_emulated" and latch "tm11:tm11|inst304~1"
     Warning (13310): Register "tm11:tm11|inst309" is converted into an equivalent circuit using register "tm11:tm11|inst309~_emulated" and latch "tm11:tm11|inst309~1"
     Warning (13310): Register "tm11:tm11|inst451" is converted into an equivalent circuit using register "tm11:tm11|inst451~_emulated" and latch "tm11:tm11|inst451~1"
-    Warning (13310): Register "tm11:tm11|inst130" is converted into an equivalent circuit using register "tm11:tm11|inst130~_emulated" and latch "tm11:tm11|inst132~1"
-    Warning (13310): Register "tm11:tm11|inst304" is converted into an equivalent circuit using register "tm11:tm11|inst304~_emulated" and latch "tm11:tm11|inst304~1"
     Warning (13310): Register "tm11:tm11|inst396" is converted into an equivalent circuit using register "tm11:tm11|inst396~_emulated" and latch "tm11:tm11|inst396~1"
     Warning (13310): Register "tm11:tm11|inst401" is converted into an equivalent circuit using register "tm11:tm11|inst401~_emulated" and latch "tm11:tm11|inst401~1"
 Warning (13024): Output pins are stuck at VCC or GND
@@ -2619,42 +2873,40 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "mt-urv" is stuck at GND
     Warning (13410): Pin "mt-usz" is stuck at VCC
     Warning (13410): Pin "led_rd" is stuck at GND
-    Warning (13410): Pin "qbus_dout_out" is stuck at VCC
-    Warning (13410): Pin "qbus_din_out" is stuck at VCC
-    Warning (13410): Pin "qbus_sync_out" is stuck at VCC
-    Warning (13410): Pin "qbus_wtbt_out" is stuck at VCC
-    Warning (13410): Pin "qbus_dmr" is stuck at VCC
     Warning (13410): Pin "qbus_virq7" is stuck at VCC
-    Warning (13410): Pin "qbus_sack" is stuck at VCC
     Warning (13410): Pin "la[15]" is stuck at GND
     Warning (13410): Pin "la[14]" is stuck at GND
     Warning (13410): Pin "la[13]" is stuck at GND
     Warning (13410): Pin "la[12]" is stuck at GND
     Warning (13410): Pin "la[11]" is stuck at GND
-    Warning (13410): Pin "la[10]" is stuck at GND
+    Warning (13410): Pin "la[9]" is stuck at GND
+    Warning (13410): Pin "la[8]" is stuck at GND
+    Warning (13410): Pin "la[7]" is stuck at GND
+    Warning (13410): Pin "la[6]" is stuck at GND
+    Warning (13410): Pin "la[5]" is stuck at GND
     Warning (13410): Pin "la[4]" is stuck at GND
-Info (17049): 65 registers lost all their fanouts during netlist optimizations.
+    Warning (13410): Pin "la[3]" is stuck at GND
+Info (17049): 74 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 9 input pin(s) that do not drive logic
+Warning (21074): Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "qbus_refresh"
+    Warning (15610): No output dependent on input pin "qbus_halt"
     Warning (15610): No output dependent on input pin "ctrl[5]"
     Warning (15610): No output dependent on input pin "ctrl[4]"
     Warning (15610): No output dependent on input pin "ctrl[3]"
     Warning (15610): No output dependent on input pin "ctrl[2]"
     Warning (15610): No output dependent on input pin "ctrl[1]"
     Warning (15610): No output dependent on input pin "ctrl[0]"
-    Warning (15610): No output dependent on input pin "qbus_rply_in"
-    Warning (15610): No output dependent on input pin "qbus_refresh"
-    Warning (15610): No output dependent on input pin "qbus_halt"
-Info (21057): Implemented 842 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1014 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 34 input pins
     Info (21059): Implemented 64 output pins
     Info (21060): Implemented 22 bidirectional pins
-    Info (21061): Implemented 722 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 139 warnings
-    Info: Peak virtual memory: 415 megabytes
-    Info: Processing ended: Fri Jul 23 15:55:02 2021
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:10
+    Info (21061): Implemented 894 logic cells
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 166 warnings
+    Info: Peak virtual memory: 403 megabytes
+    Info: Processing ended: Tue Jul 27 18:04:04 2021
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:12
 
 

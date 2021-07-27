@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Fri Jul 23 15:55:01 2021
+Analysis & Synthesis Status : Successful - Tue Jul 27 18:04:04 2021
 Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : mt11_controller_c-ii
 Top-level Entity Name : mt11_controller_c-ii
 Family : Cyclone II
-Total logic elements : 715
-    Total combinational functions : 686
-    Dedicated logic registers : 309
-Total registers : 309
+Total logic elements : 885
+    Total combinational functions : 851
+    Dedicated logic registers : 361
+Total registers : 361
 Total pins : 120
 Total virtual pins : 0
 Total memory bits : 0
