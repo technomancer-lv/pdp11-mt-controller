@@ -14,5 +14,6 @@ Boards for connecting a drive to cable
 Test:
 NXM error using a MC1201.02 board with partially disabled RAM (NXM error seems to be working)
 DMA address bit 16,17 functionality with MC102.03
-DMA byte transfer
-Are AD lines 18..21 are permanently disabled?
+(fixed) DMA byte transfer
+(yes) Are AD lines 18..21 are permanently disabled?
+DMA LSB should be from the flip-flop not the counter. Check this.
