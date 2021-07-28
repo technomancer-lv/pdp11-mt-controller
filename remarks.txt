@@ -10,6 +10,7 @@ A 16, 17 can be replaced with output-only drivers
 Logic analyzer connector smaller, with more signals.
 Board for easier connecting a LA to the controller board
 Boards for connecting a drive to cable
+What's one unknown signal on the drive?
 
 Test:
 NXM error using a MC1201.02 board with partially disabled RAM (NXM error seems to be working)
