@@ -1,3 +1,7 @@
+P-CAD Online DRC Error Log                                  mt-cm5300-conn-board.pcb
+
+======================================================================
+
 OnlineDRC.ERR.txt:
 
 NETLIST VIOLATIONS:
@@ -17,3 +21,46 @@ WIDTH VIOLATIONS:
 
 0 warning(s) detected.
 0 error(s) detected.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+
+01-Aug-21  11:56                                            Page    1
+

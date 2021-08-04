@@ -1,15 +1,15 @@
-Fitter Status : Successful - Tue Jul 27 18:04:25 2021
+Fitter Status : Successful - Tue Aug 03 17:11:04 2021
 Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : mt11_controller_c-ii
 Top-level Entity Name : mt11_controller_c-ii
 Family : Cyclone II
 Device : EP2C35F484I8
 Timing Models : Final
-Total logic elements : 915 / 33,216 ( 3 % )
-    Total combinational functions : 867 / 33,216 ( 3 % )
-    Dedicated logic registers : 361 / 33,216 ( 1 % )
-Total registers : 361
-Total pins : 120 / 322 ( 37 % )
+Total logic elements : 908 / 33,216 ( 3 % )
+    Total combinational functions : 860 / 33,216 ( 3 % )
+    Dedicated logic registers : 382 / 33,216 ( 1 % )
+Total registers : 382
+Total pins : 121 / 322 ( 38 % )
 Total virtual pins : 0
 Total memory bits : 0 / 483,840 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )

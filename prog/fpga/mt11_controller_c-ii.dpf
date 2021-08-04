@@ -4,8 +4,6 @@
 	<pin_info>
 		<pin name="la15" source="Pin Planner" >
 		</pin>
-		<pin name="dmgo_irq7" source="Pin Planner" >
-		</pin>
 		<pin name="la[19]" source="Pin Planner" >
 		</pin>
 	</pin_info>
