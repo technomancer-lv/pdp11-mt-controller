@@ -3,27 +3,27 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'clk_25m'
-Slack : 2.521
+Slack : 3.381
 TNS   : 0.000
 
 Type  : Slow Model Hold 'clk_25m'
-Slack : 0.499
+Slack : -0.222
+TNS   : -0.222
+
+Type  : Slow Model Recovery 'qbus_sync'
+Slack : 3.377
 TNS   : 0.000
 
 Type  : Slow Model Recovery 'clk_25m'
-Slack : 2.294
-TNS   : 0.000
-
-Type  : Slow Model Recovery 'qbus_sync'
-Slack : 4.096
+Slack : 3.971
 TNS   : 0.000
 
 Type  : Slow Model Removal 'clk_25m'
-Slack : 2.436
+Slack : 2.676
 TNS   : 0.000
 
 Type  : Slow Model Removal 'qbus_sync'
-Slack : 10.185
+Slack : 10.535
 TNS   : 0.000
 
 Type  : Slow Model Minimum Pulse Width 'clk_25m'
@@ -39,27 +39,27 @@ Slack : 497.223
 TNS   : 0.000
 
 Type  : Fast Model Setup 'clk_25m'
-Slack : 7.602
+Slack : 8.102
 TNS   : 0.000
 
 Type  : Fast Model Hold 'clk_25m'
-Slack : 0.152
-TNS   : 0.000
-
-Type  : Fast Model Recovery 'clk_25m'
-Slack : 7.419
+Slack : 0.202
 TNS   : 0.000
 
 Type  : Fast Model Recovery 'qbus_sync'
-Slack : 8.099
+Slack : 7.968
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'clk_25m'
+Slack : 8.153
 TNS   : 0.000
 
 Type  : Fast Model Removal 'clk_25m'
-Slack : 0.560
+Slack : 0.878
 TNS   : 0.000
 
 Type  : Fast Model Removal 'qbus_sync'
-Slack : 10.470
+Slack : 10.527
 TNS   : 0.000
 
 Type  : Fast Model Minimum Pulse Width 'clk_25m'

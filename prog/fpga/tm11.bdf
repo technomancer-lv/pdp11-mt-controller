@@ -8617,39 +8617,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 520 10816 584 10864)
-	(text "NAND2" (rect 1 0 32 10)(font "Arial" (font_size 6)))
-	(text "inst302" (rect 3 37 38 49)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(text "IN2" (rect 2 23 19 35)(font "Courier New" (bold))(invisible))
-		(line (pt 0 32)(pt 15 32))
-	)
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 2 7 19 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 15 16))
-	)
-	(port
-		(pt 64 24)
-		(output)
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 48 15 65 27)(font "Courier New" (bold))(invisible))
-		(line (pt 52 24)(pt 64 24))
-	)
-	(drawing
-		(line (pt 15 37)(pt 32 37))
-		(line (pt 15 12)(pt 32 12))
-		(line (pt 15 36)(pt 15 12))
-		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
-		(circle (rect 44 20 52 28))
-	)
-)
-(symbol
 	(rect 448 10568 512 10616)
 	(text "NAND2" (rect 1 0 32 10)(font "Arial" (font_size 6)))
 	(text "inst303" (rect 3 37 38 49)(font "Arial" ))
@@ -8680,31 +8647,6 @@ applicable agreement for further details.
 		(line (pt 15 36)(pt 15 12))
 		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
 		(circle (rect 44 20 52 28))
-	)
-)
-(symbol
-	(rect 912 10432 960 10464)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst305" (rect 3 21 38 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
 	)
 )
 (symbol
@@ -10966,31 +10908,6 @@ applicable agreement for further details.
 		(arc (pt 5 29)(pt 5 19)(rect -16 8 17 41))
 		(arc (pt 23 35)(pt 46 24)(rect -6 -23 53 36))
 		(circle (rect 46 20 54 28))
-	)
-)
-(symbol
-	(rect 552 2984 600 3016)
-	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
-	(text "inst407" (rect 3 21 38 33)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 13 16))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
-		(line (pt 39 16)(pt 48 16))
-	)
-	(drawing
-		(line (pt 13 25)(pt 13 7))
-		(line (pt 13 7)(pt 31 16))
-		(line (pt 13 25)(pt 31 16))
-		(circle (rect 31 12 39 20))
 	)
 )
 (symbol
@@ -21845,19 +21762,6 @@ applicable agreement for further details.
 	(pt 832 10376)
 )
 (connector
-	(pt 912 10448)
-	(pt 896 10448)
-)
-(connector
-	(pt 896 10448)
-	(pt 896 10424)
-)
-(connector
-	(text "ILC_L" (rect 1040 10432 1069 10444)(font "Arial" ))
-	(pt 960 10448)
-	(pt 1088 10448)
-)
-(connector
 	(pt 784 10472)
 	(pt 792 10472)
 )
@@ -22778,15 +22682,6 @@ applicable agreement for further details.
 (connector
 	(pt 376 9064)
 	(pt 376 9128)
-)
-(connector
-	(pt 880 10424)
-	(pt 896 10424)
-)
-(connector
-	(text "ILC_H" (rect 1040 10408 1071 10420)(font "Arial" ))
-	(pt 896 10424)
-	(pt 1088 10424)
 )
 (connector
 	(pt 792 10528)
@@ -23868,11 +23763,6 @@ applicable agreement for further details.
 	(pt 552 3224)
 )
 (connector
-	(text "GO_BIT_L" (rect 617 2984 667 2996)(font "Arial" ))
-	(pt 600 3000)
-	(pt 656 3000)
-)
-(connector
 	(pt 648 3264)
 	(pt 632 3264)
 )
@@ -23902,10 +23792,6 @@ applicable agreement for further details.
 (connector
 	(pt 376 3144)
 	(pt 392 3144)
-)
-(connector
-	(pt 536 3000)
-	(pt 552 3000)
 )
 (connector
 	(text "SEL_1_OUT_LO_L" (rect 280 3000 372 3012)(font "Arial" ))
@@ -27174,6 +27060,11 @@ applicable agreement for further details.
 	(pt 616 3248)
 	(pt 648 3248)
 )
+(connector
+	(text "ILC_H" (rect 1040 10408 1071 10420)(font "Arial" ))
+	(pt 880 10424)
+	(pt 1088 10424)
+)
 (junction (pt 1096 1184))
 (junction (pt 912 2248))
 (junction (pt 2208 1776))
@@ -27254,7 +27145,6 @@ applicable agreement for further details.
 (junction (pt 408 9416))
 (junction (pt 360 9696))
 (junction (pt 376 9128))
-(junction (pt 896 10424))
 (junction (pt 848 10528))
 (junction (pt 240 10656))
 (junction (pt 688 10664))
@@ -27301,7 +27191,6 @@ applicable agreement for further details.
 (junction (pt 2672 1232))
 (junction (pt 2672 1264))
 (junction (pt 312 3272))
-(junction (pt 536 3000))
 (junction (pt 1448 2112))
 (junction (pt 680 1304))
 (junction (pt 856 1312))
