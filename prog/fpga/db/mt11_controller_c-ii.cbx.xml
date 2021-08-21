@@ -5,7 +5,6 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tm11:tm11|count_m307_15us:inst432|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_mni.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tm11:tm11|m304-1us:inst299|count_m304_1us:inst393|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ini.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tu10:tu10|comp_10khz:inst58|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_v8j.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tu10:tu10|count_26:inst70|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_dmh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tu10:tu10|count_m307_15us:inst434|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_mni.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tm11:tm11|count_8_aload:inst51|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_kgj.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|mt11_controller_c-ii|tm11:tm11|count_m304_1us:inst495|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_ini.tdf"/>

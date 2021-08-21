@@ -1,5 +1,5 @@
 Flow report for mt11_controller_c-ii
-Tue Aug 10 18:07:56 2021
+Sat Aug 21 11:59:15 2021
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,17 +40,17 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Aug 10 18:07:53 2021           ;
+; Flow Status                        ; Successful - Sat Aug 21 11:59:12 2021           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; mt11_controller_c-ii                            ;
 ; Top-level Entity Name              ; mt11_controller_c-ii                            ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F484I8                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 1,059 / 33,216 ( 3 % )                          ;
-;     Total combinational functions  ; 1,012 / 33,216 ( 3 % )                          ;
-;     Dedicated logic registers      ; 456 / 33,216 ( 1 % )                            ;
-; Total registers                    ; 456                                             ;
+; Total logic elements               ; 1,100 / 33,216 ( 3 % )                          ;
+;     Total combinational functions  ; 1,033 / 33,216 ( 3 % )                          ;
+;     Dedicated logic registers      ; 453 / 33,216 ( 1 % )                            ;
+; Total registers                    ; 453                                             ;
 ; Total pins                         ; 121 / 322 ( 38 % )                              ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0 / 483,840 ( 0 % )                             ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 08/10/2021 18:07:19  ;
+; Start date & time ; 08/21/2021 11:58:40  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; mt11_controller_c-ii ;
 +-------------------+----------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+---------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 61986966677115.162860803805292        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 61986966677115.162953632006064        ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_COUNTER                           ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --         ;
 ; IP_TOOL_NAME                        ; LPM_MUX                               ; --            ; --          ; --         ;
@@ -196,11 +196,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:11     ; 1.0                     ; 402 MB              ; 00:00:11                           ;
-; Fitter                    ; 00:00:15     ; 1.0                     ; 491 MB              ; 00:00:15                           ;
+; Analysis & Synthesis      ; 00:00:11     ; 1.0                     ; 401 MB              ; 00:00:11                           ;
+; Fitter                    ; 00:00:16     ; 1.0                     ; 500 MB              ; 00:00:15                           ;
 ; Assembler                 ; 00:00:03     ; 1.0                     ; 356 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 331 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:31     ; --                      ; --                  ; 00:00:31                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 326 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:32     ; --                      ; --                  ; 00:00:31                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
