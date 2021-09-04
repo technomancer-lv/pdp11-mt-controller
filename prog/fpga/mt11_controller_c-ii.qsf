@@ -53,7 +53,6 @@ set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_L22 -to clk_25m
-set_instance_assignment -name RESERVE_PIN AS_INPUT_TRI_STATED -to clk_25m
 set_location_assignment PIN_E2 -to led_dp
 set_location_assignment PIN_J1 -to led_wr
 set_location_assignment PIN_N1 -to led_bus
